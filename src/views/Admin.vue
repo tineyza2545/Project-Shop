@@ -34,38 +34,33 @@
       <div class="container px-4">
         <div class="row gx-5">
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Name</label
-            >
             <input
               type="text"
               class="form-control py-3"
               v-model="nameproduct"
+              placeholder="Name product"
               required
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
           </div>
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Price</label
-            >
             <input
               type="number"
               class="form-control py-3"
+              placeholder="Price"
               id="exampleInputEmail1"
               v-model="price"
+              min="1"
               required
               aria-describedby="emailHelp"
             />
           </div>
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Image Link</label
-            >
             <input
               type="text"
               v-model="img"
+              placeholder="Image Like"
               required
               class="form-control py-3"
               id="exampleInputEmail1"
@@ -87,12 +82,10 @@
       <div class="container px-4">
         <div class="row gx-5">
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Name</label
-            >
             <input
               type="text"
               class="form-control py-3"
+              placeholder="Name product"
               v-model="nameproduct1"
               required
               id="exampleInputEmail1"
@@ -100,25 +93,22 @@
             />
           </div>
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Price</label
-            >
             <input
               type="number"
               class="form-control py-3"
               id="exampleInputEmail1"
+              placeholder="Price"
+              min="1"
               v-model="price1"
               required
               aria-describedby="emailHelp"
             />
           </div>
           <div class="col">
-            <label for="exampleInputEmail1 " class="form-label h3 text-black"
-              >Image Link</label
-            >
             <input
               type="text"
               v-model="img1"
+              placeholder="Image Like"
               required
               class="form-control py-3"
               id="exampleInputEmail1"
